@@ -1,0 +1,203 @@
+INFO:     Started server process [6]
+INFO:     Waiting for application startup.
+{"event": "model_loaded", "model_version": "2bd5b7c78e24"}
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+{"event": "http_request", "request_id": "f05fbff6-d26d-403c-8f96-2b7e84cc4af5", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 2.334}
+INFO:     127.0.0.1:44880 - "GET /ready HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "2eff04f6-d8a9-41a1-aa0f-4ce033699091", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.605}
+INFO:     127.0.0.1:44890 - "GET /health HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "3501bac0-3e4f-407b-81e6-b06506bbe1df", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 8.021}
+INFO:     127.0.0.1:44890 - "GET /ready HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "6eb7de37-901d-4862-be80-905254b411bc", "method": "GET", "route": "/model-info", "status": 200, "duration_ms": 0.362}
+INFO:     127.0.0.1:44890 - "GET /model-info HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "11fe5a4e-9f4c-4cd0-888c-fd87038ce63d", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 13.119}
+INFO:     127.0.0.1:44890 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "85c9d203-fb12-4f06-8e06-6d92ddabb602", "method": "POST", "route": "/predict", "status": 422, "duration_ms": 0.591}
+INFO:     127.0.0.1:44890 - "POST /predict HTTP/1.1" 422 Unprocessable Entity
+{"event": "http_request", "request_id": "041225ec-86e6-4ff7-a22c-d678838b63f1", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.054}
+INFO:     127.0.0.1:44890 - "GET /metrics HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "95251e24-5fb6-4da1-8ae2-70571062f6d9", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 11.784}
+INFO:     127.0.0.1:44898 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "dfa8292d-2550-449c-9fc1-3eb0337bd31d", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 4.351}
+INFO:     127.0.0.1:44908 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "5caa8e26-db24-44b5-9c76-7b4c7718dfb3", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 4.278}
+INFO:     127.0.0.1:44924 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "4cc59874-c3b7-4539-ad21-f71af532abe0", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.961}
+INFO:     127.0.0.1:44932 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "8683e92e-4e19-42e9-885f-4b94fa9fef46", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 4.097}
+INFO:     127.0.0.1:44946 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "166229d6-2837-4c20-b953-6942b5c0b701", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.921}
+INFO:     127.0.0.1:44960 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "dd0990a2-6a71-49c3-b12c-dc5b8dc4a4a8", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.724}
+INFO:     127.0.0.1:44974 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "ff51e665-0ec6-4326-9b39-98a943d82c4e", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 4.122}
+INFO:     127.0.0.1:44976 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "00d6b10d-d290-4284-8b8a-e93565d0fae3", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.776}
+INFO:     127.0.0.1:44984 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "f917260f-b637-4eb1-9e0f-e3d837aa7fe2", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.724}
+INFO:     127.0.0.1:44988 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "933a3538-24eb-42c8-ac6c-04fb431eee50", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 4.476}
+INFO:     127.0.0.1:45004 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "a5085508-e092-4177-bc23-2c44dcb8a616", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.875}
+INFO:     127.0.0.1:45012 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "2370ac56-9142-4779-8953-05fc8b366903", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.812}
+INFO:     127.0.0.1:45028 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "50bcc914-fbe4-4ce2-b292-051c6de79307", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 4.149}
+INFO:     127.0.0.1:45040 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "38a9d742-8d60-4d6c-8fc8-f233749a0ba4", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.969}
+INFO:     127.0.0.1:45050 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "37e18626-7dfb-4e2c-9176-17d164be157a", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 4.032}
+INFO:     127.0.0.1:45066 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "61d51e14-d812-489f-8cea-aeb880945fcf", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.936}
+INFO:     127.0.0.1:45080 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "0e59c4ce-f502-4d1a-8d21-a64be954fd4d", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.677}
+INFO:     127.0.0.1:45086 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "06690cd5-835f-4031-bb4d-4f68eb5e292f", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.83}
+INFO:     127.0.0.1:45098 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "989410aa-3677-4bd1-8015-5bde7724f44c", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.322}
+INFO:     127.0.0.1:45102 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "6f169378-ab88-4fa1-8d9a-26a6af1a47c8", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.712}
+INFO:     127.0.0.1:45106 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "6c399f40-59a0-431d-bdcf-a339389761d2", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.791}
+INFO:     127.0.0.1:45108 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "9194170c-6fcc-4c44-8879-0bf9770800a9", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.991}
+INFO:     127.0.0.1:45114 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "95ae823d-fcd1-4532-b545-52e17cc69475", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.872}
+INFO:     127.0.0.1:45128 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "93c2cb5e-271e-4ac6-965e-de0aa9fbda50", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.707}
+INFO:     127.0.0.1:45130 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "38756367-f007-4664-bbef-d7bc41572432", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 4.005}
+INFO:     127.0.0.1:45136 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "792e3025-c7c2-491f-96c7-4f1fb5509200", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.69}
+INFO:     127.0.0.1:45140 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "d84df2c3-8b67-4d8f-9c7f-31463809ed44", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.689}
+INFO:     127.0.0.1:45144 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "4ad0214a-5277-41b7-94b3-e6e96a316531", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 4.101}
+INFO:     127.0.0.1:45150 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "2fa909d8-c288-4001-98d0-05bba29bfee0", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 3.796}
+INFO:     127.0.0.1:45156 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "9f8bd955-5576-4cea-927f-dce61ee4c10c", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 0.96}
+INFO:     127.0.0.1:45160 - "GET /metrics HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "e85a2e6a-3be2-49c6-9803-4b01e6d8da3e", "method": "GET", "route": "/docs", "status": 200, "duration_ms": 0.75}
+INFO:     127.0.0.1:45170 - "GET /docs HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "a0e07184-e5c4-4f1b-b5c9-d2c7267b1bba", "method": "GET", "route": "unmatched", "status": 200, "duration_ms": 5.298}
+INFO:     127.0.0.1:45170 - "GET /static/swagger-ui.css HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "48987655-daaf-452a-ab87-f6921b3c8ebf", "method": "GET", "route": "unmatched", "status": 200, "duration_ms": 5.435}
+INFO:     127.0.0.1:45176 - "GET /static/swagger-ui-bundle.js HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "d3f835a0-a102-42c9-a065-6b49fcdfe10c", "method": "GET", "route": "unmatched", "status": 200, "duration_ms": 5.891}
+INFO:     127.0.0.1:45176 - "GET /openapi.json HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "4f853fb5-a4e4-418f-a38f-4461d233c8da", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 12.857}
+INFO:     127.0.0.1:55506 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "d8d48282-6f4f-41c1-b3f3-0a5ad52e04ac", "method": "GET", "route": "/model-info", "status": 200, "duration_ms": 0.713}
+INFO:     127.0.0.1:46700 - "GET /model-info HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "0d4fafe2-0ff9-4139-bdfc-19c5852befc6", "method": "GET", "route": "/dashboard", "status": 200, "duration_ms": 0.855}
+INFO:     127.0.0.1:43714 - "GET /dashboard HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "00611778-5143-463c-b310-98fee94ab031", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.361}
+INFO:     127.0.0.1:43714 - "GET /monitoring HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "b375dd49-c7ad-44fd-a8e1-45560d9ceaad", "method": "POST", "route": "/predict", "status": 422, "duration_ms": 0.652}
+INFO:     127.0.0.1:52382 - "POST /predict HTTP/1.1" 422 Unprocessable Entity
+{"event": "http_request", "request_id": "24908b30-f2e4-4cce-a7cc-ab602c8879ea", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 9.504}
+INFO:     127.0.0.1:52392 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "e786a371-5650-4abc-a943-5893ae6f43e6", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 10.753}
+INFO:     127.0.0.1:52400 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "28b74cae-4aa2-47cb-b364-480fb3ed9a5a", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 7.937}
+INFO:     127.0.0.1:52410 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "eff00a3a-2df5-4900-b250-537020bb86e1", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.69}
+INFO:     127.0.0.1:52426 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "2b603700-a45b-4713-8a86-03b7c9e8e28d", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.606}
+INFO:     127.0.0.1:52442 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "9c57a00e-7452-40b0-abdd-64de84da6ee3", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.618}
+INFO:     127.0.0.1:43714 - "GET /monitoring HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "43d3865c-5b51-46f6-8f94-263f0b4f94f8", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 11.613}
+INFO:     127.0.0.1:52452 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "39906479-596e-4492-9cc5-e01cbf3822d7", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.574}
+INFO:     127.0.0.1:52466 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "61ea05b8-ddef-46d4-965e-ceddcf2a6bff", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.098}
+INFO:     127.0.0.1:52474 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "391a539f-2df1-4259-a9b0-bfd90262b508", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.04}
+INFO:     127.0.0.1:52486 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "7a2fdc29-edd9-4fd7-8d7a-a55a8a161e6a", "method": "POST", "route": "/predict", "status": 422, "duration_ms": 0.592}
+INFO:     127.0.0.1:52498 - "POST /predict HTTP/1.1" 422 Unprocessable Entity
+{"event": "http_request", "request_id": "50908842-d639-46ed-9950-0ce8200822c5", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.365}
+INFO:     127.0.0.1:52500 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "715e9f59-ab66-4666-b994-20c6ad702fd9", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.05}
+INFO:     127.0.0.1:52502 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "039eac6e-495e-479f-9de7-1cf8f8ca1183", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.04}
+INFO:     127.0.0.1:52516 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "3b1cdad4-e13d-4c7b-8a02-1e9b7c1d022f", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.317}
+INFO:     127.0.0.1:43714 - "GET /monitoring HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "43a55b86-6e43-4e79-b86a-cdab7380bce9", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.352}
+INFO:     127.0.0.1:52528 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "8c9a2bb5-16c8-44d6-911f-9444fc8ed55b", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.289}
+INFO:     127.0.0.1:52530 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "ab2f4bc8-af11-4f35-b8ac-f8b1f527de6a", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 6.055}
+INFO:     127.0.0.1:52540 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "5f4c6319-2fdf-4b9d-a531-a17858271db6", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.32}
+INFO:     127.0.0.1:52550 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "0c85cf34-78bf-430d-88b7-005f7d3381a5", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.061}
+INFO:     127.0.0.1:52564 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "828e69ba-badd-42a3-a3ac-59db9091e7c2", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.209}
+INFO:     127.0.0.1:52570 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "890f1483-218e-44bc-b47c-3bb770318c0c", "method": "POST", "route": "/predict", "status": 422, "duration_ms": 0.591}
+INFO:     127.0.0.1:52580 - "POST /predict HTTP/1.1" 422 Unprocessable Entity
+{"event": "http_request", "request_id": "0dfec3a3-298f-4ec4-a9f3-833229a1a3a5", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.255}
+INFO:     127.0.0.1:43714 - "GET /monitoring HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "878c36e4-a369-4c9f-bf26-0027f715fee0", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.152}
+INFO:     127.0.0.1:52590 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "49bfea6c-6e4d-493a-a57d-e74cbd4621d5", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.119}
+INFO:     127.0.0.1:52606 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "fa09e24a-8428-4348-89b5-628054fea4e3", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.516}
+INFO:     127.0.0.1:52618 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "2c0e66bf-a235-4c03-8fe3-4589552b9d4c", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.312}
+INFO:     127.0.0.1:43714 - "GET /monitoring HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "347da703-e453-49d4-bd8e-25d17ae10482", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.885}
+INFO:     127.0.0.1:52622 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "1717c97e-0916-4445-ad69-31951f193432", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 6.568}
+INFO:     127.0.0.1:52636 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "a6f56ba6-04c4-4882-ba0f-05d743766a32", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.261}
+INFO:     127.0.0.1:52644 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "0e472554-a273-445e-b8e5-618f71830d26", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.388}
+INFO:     127.0.0.1:52658 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "609deee8-fab1-4370-ab03-2b021cc405a5", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.403}
+INFO:     127.0.0.1:43714 - "GET /monitoring HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "c6d228ee-2e65-49e7-b8ef-084b594a7553", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 6.567}
+INFO:     127.0.0.1:60870 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "276b0083-7900-4eb1-a5c3-8a44cd444726", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 7.156}
+INFO:     127.0.0.1:60886 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "1911bbf0-8f88-43dc-b861-2e75ff125a7c", "method": "POST", "route": "/predict", "status": 422, "duration_ms": 0.643}
+INFO:     127.0.0.1:60888 - "POST /predict HTTP/1.1" 422 Unprocessable Entity
+{"event": "http_request", "request_id": "1b968c23-7e28-46a6-88a5-ecdf55cae701", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.705}
+INFO:     127.0.0.1:43714 - "GET /monitoring HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "c23e0f7c-7f50-4283-ad87-0eee057e4bfd", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.029}
+INFO:     127.0.0.1:60902 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "93cc6073-b406-4fe3-8ccd-7b39d7696c9e", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 7.735}
+INFO:     127.0.0.1:60904 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "cae503fd-4e8d-4bfb-bb76-211322cb99aa", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.395}
+INFO:     127.0.0.1:60920 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "004b8bda-ae0e-4442-a54e-2fb6c47aecc1", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.245}
+INFO:     127.0.0.1:43714 - "GET /monitoring HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "42c392f4-e814-4b3e-b207-941787eff389", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.518}
+INFO:     127.0.0.1:60924 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "e725b933-a395-456e-bc12-c44437cb5b91", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.538}
+INFO:     127.0.0.1:60932 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "0ae23e26-8f37-4724-8443-5d246d4e4027", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.393}
+INFO:     127.0.0.1:60946 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "a93ce3f7-ec74-4555-a427-a5d41c5bf1c1", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.845}
+INFO:     127.0.0.1:60950 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "a22b9d04-a027-45eb-94a0-f17db96bee35", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 0.923}
+INFO:     127.0.0.1:43714 - "GET /monitoring HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "89b94da3-3210-43cb-9144-4414f1bc224b", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 5.725}
+INFO:     127.0.0.1:60960 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "a21aa4c1-881b-49a5-8b23-4c93f9d3717d", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 6.471}
+INFO:     127.0.0.1:60970 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "0c0f8832-b1f7-4e1c-9bc3-4991fb74e885", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.168}
+INFO:     127.0.0.1:43714 - "GET /monitoring HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "c94ca7a0-678f-4746-9e68-2df112e8bae4", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.353}
+INFO:     127.0.0.1:60984 - "GET /monitoring HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "07cbb4b7-7b22-4b80-b955-dddf4c61d71b", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.311}
+INFO:     127.0.0.1:43714 - "GET /metrics HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6]

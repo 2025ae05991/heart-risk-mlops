@@ -1,0 +1,12 @@
+[2026-10-11 10:49:32 +0200] [23] [INFO] Starting gunicorn 23.0.0
+[2026-10-11 10:49:32 +0200] [23] [INFO] Listening at: http://127.0.0.1:5055 (23)
+[2026-10-11 10:49:32 +0200] [23] [INFO] Using worker: sync
+[2026-10-11 10:49:32 +0200] [24] [INFO] Booting worker with pid: 24
+[2026-10-11 10:49:32 +0200] [25] [INFO] Booting worker with pid: 25
+[2026-10-11 10:49:32 +0200] [26] [INFO] Booting worker with pid: 26
+[2026-10-11 10:49:32 +0200] [27] [INFO] Booting worker with pid: 27
+[2026-10-11 10:49:39 +0200] [23] [INFO] Handling signal: term
+[2026-10-11 10:49:39 +0200] [25] [INFO] Worker exiting (pid: 25)
+[2026-10-11 10:49:39 +0200] [27] [INFO] Worker exiting (pid: 27)
+[2026-10-11 10:49:39 +0200] [24] [INFO] Worker exiting (pid: 24)
+[2026-10-11 10:49:39 +0200] [26] [INFO] Worker exiting (pid: 26)

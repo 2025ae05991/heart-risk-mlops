@@ -1,0 +1,49 @@
+{
+  "base_url": "http://localhost:8000",
+  "/health": {
+    "status": "ok"
+  },
+  "/ready": {
+    "status": "ready",
+    "model_version": "ae966e5fe13b"
+  },
+  "/model-info": {
+    "model_family": "logistic_regression",
+    "model_version": "ae966e5fe13b",
+    "features": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ],
+    "threshold": 0.5,
+    "test_metrics": {
+      "accuracy": 0.8852459016393442,
+      "precision": 0.8387096774193549,
+      "recall": 0.9285714285714286,
+      "f1": 0.8813559322033898,
+      "roc_auc": 0.9632034632034632,
+      "brier_score": 0.08266082625601545
+    },
+    "intended_use": "Educational dataset classification; not a clinical risk score."
+  },
+  "/predict": {
+    "prediction": 0,
+    "label": "disease_absent",
+    "confidence": 0.8712524597472653,
+    "probability_disease": 0.1287475402527347,
+    "threshold": 0.5,
+    "model_version": "ae966e5fe13b"
+  },
+  "invalid_cp_status": 422,
+  "metrics_present": true
+}

@@ -1,0 +1,9 @@
+PowerShell 7.4.7 syntax and native-wrapper validation on Linux
+collect_evidence.ps1: syntax passed
+collect_github_evidence.ps1: syntax passed
+complete_assignment.ps1: syntax passed
+deploy.ps1: syntax passed
+docker_smoke.ps1: syntax passed
+Native argument array binding, UTF-8 log writing, and nonzero-exit rejection: passed with stubs
+ConfigMap generation failure gate: passed with a stub
+These checks validate scripts; no Docker Desktop or Kubernetes execution is claimed.

@@ -1,0 +1,19 @@
+HEART DISEASE MLOPS ASSIGNMENT 1
+
+1. Open docs/Docker_Desktop_Setup_and_Run_Guide.docx for the step-by-step instructions.
+2. Open docs/MLOps_Assignment_1_Report.pdf for the 10-page assignment report.
+3. Open this heart-risk-mlops folder in VS Code and follow the guide in order.
+4. After the guide's prerequisite steps, run .\scripts\complete_assignment.ps1
+   to train, test, deploy to Docker Desktop, and verify live monitoring.
+5. Follow the guide to collect actual GitHub Actions evidence and screenshots.
+6. Review docs/Final_Submission_Status.md and SUBMISSION_CHECKLIST.md.
+
+Executed here: data preparation, full model comparison, MLflow tracking,
+29 passing unit tests, the local Python API, and its live monitoring dashboard.
+
+Run on your own laptop/repository: Docker build and isolated container check,
+Docker Desktop Kubernetes, Prometheus/Grafana, and GitHub Actions. Add the real
+repository URL, capture those screenshots, and record the full demonstration.
+
+The bundled MP4 shows the executed local pipeline only. The final checker
+requires actual Docker Desktop, hosted CI, screenshots, and full video evidence.

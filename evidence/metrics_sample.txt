@@ -1,0 +1,132 @@
+# HELP python_gc_objects_collected_total Objects collected during gc
+# TYPE python_gc_objects_collected_total counter
+python_gc_objects_collected_total{generation="0"} 3512.0
+python_gc_objects_collected_total{generation="1"} 36.0
+python_gc_objects_collected_total{generation="2"} 0.0
+# HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
+# TYPE python_gc_objects_uncollectable_total counter
+python_gc_objects_uncollectable_total{generation="0"} 0.0
+python_gc_objects_uncollectable_total{generation="1"} 0.0
+python_gc_objects_uncollectable_total{generation="2"} 0.0
+# HELP python_gc_collections_total Number of times this generation was collected
+# TYPE python_gc_collections_total counter
+python_gc_collections_total{generation="0"} 308.0
+python_gc_collections_total{generation="1"} 27.0
+python_gc_collections_total{generation="2"} 2.0
+# HELP python_info Python platform information
+# TYPE python_info gauge
+python_info{implementation="CPython",major="3",minor="12",patchlevel="14",version="3.12.14"} 1.0
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 1.265737728e+09
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 2.154496e+08
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.79170833945e+09
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 2.41
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 9.0
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 16384.0
+# HELP heartml_http_requests_total API responses
+# TYPE heartml_http_requests_total counter
+heartml_http_requests_total{method="GET",route="/ready",status="200"} 2.0
+heartml_http_requests_total{method="GET",route="/health",status="200"} 1.0
+heartml_http_requests_total{method="GET",route="/model-info",status="200"} 1.0
+heartml_http_requests_total{method="POST",route="/predict",status="200"} 31.0
+heartml_http_requests_total{method="POST",route="/predict",status="422"} 1.0
+heartml_http_requests_total{method="GET",route="/metrics",status="200"} 1.0
+# HELP heartml_http_requests_created API responses
+# TYPE heartml_http_requests_created gauge
+heartml_http_requests_created{method="GET",route="/ready",status="200"} 1.7917083412005706e+09
+heartml_http_requests_created{method="GET",route="/health",status="200"} 1.7917083439949799e+09
+heartml_http_requests_created{method="GET",route="/model-info",status="200"} 1.7917083440119295e+09
+heartml_http_requests_created{method="POST",route="/predict",status="200"} 1.7917083440258949e+09
+heartml_http_requests_created{method="POST",route="/predict",status="422"} 1.791708344027454e+09
+heartml_http_requests_created{method="GET",route="/metrics",status="200"} 1.791708344029081e+09
+# HELP heartml_http_duration_seconds API request time
+# TYPE heartml_http_duration_seconds histogram
+heartml_http_duration_seconds_bucket{le="0.005",route="/ready"} 1.0
+heartml_http_duration_seconds_bucket{le="0.01",route="/ready"} 2.0
+heartml_http_duration_seconds_bucket{le="0.025",route="/ready"} 2.0
+heartml_http_duration_seconds_bucket{le="0.05",route="/ready"} 2.0
+heartml_http_duration_seconds_bucket{le="0.1",route="/ready"} 2.0
+heartml_http_duration_seconds_bucket{le="0.25",route="/ready"} 2.0
+heartml_http_duration_seconds_bucket{le="0.5",route="/ready"} 2.0
+heartml_http_duration_seconds_bucket{le="1.0",route="/ready"} 2.0
+heartml_http_duration_seconds_bucket{le="2.0",route="/ready"} 2.0
+heartml_http_duration_seconds_bucket{le="5.0",route="/ready"} 2.0
+heartml_http_duration_seconds_bucket{le="+Inf",route="/ready"} 2.0
+heartml_http_duration_seconds_count{route="/ready"} 2.0
+heartml_http_duration_seconds_sum{route="/ready"} 0.010355495999647246
+heartml_http_duration_seconds_bucket{le="0.005",route="/health"} 1.0
+heartml_http_duration_seconds_bucket{le="0.01",route="/health"} 1.0
+heartml_http_duration_seconds_bucket{le="0.025",route="/health"} 1.0
+heartml_http_duration_seconds_bucket{le="0.05",route="/health"} 1.0
+heartml_http_duration_seconds_bucket{le="0.1",route="/health"} 1.0
+heartml_http_duration_seconds_bucket{le="0.25",route="/health"} 1.0
+heartml_http_duration_seconds_bucket{le="0.5",route="/health"} 1.0
+heartml_http_duration_seconds_bucket{le="1.0",route="/health"} 1.0
+heartml_http_duration_seconds_bucket{le="2.0",route="/health"} 1.0
+heartml_http_duration_seconds_bucket{le="5.0",route="/health"} 1.0
+heartml_http_duration_seconds_bucket{le="+Inf",route="/health"} 1.0
+heartml_http_duration_seconds_count{route="/health"} 1.0
+heartml_http_duration_seconds_sum{route="/health"} 0.0006049710000297637
+heartml_http_duration_seconds_bucket{le="0.005",route="/model-info"} 1.0
+heartml_http_duration_seconds_bucket{le="0.01",route="/model-info"} 1.0
+heartml_http_duration_seconds_bucket{le="0.025",route="/model-info"} 1.0
+heartml_http_duration_seconds_bucket{le="0.05",route="/model-info"} 1.0
+heartml_http_duration_seconds_bucket{le="0.1",route="/model-info"} 1.0
+heartml_http_duration_seconds_bucket{le="0.25",route="/model-info"} 1.0
+heartml_http_duration_seconds_bucket{le="0.5",route="/model-info"} 1.0
+heartml_http_duration_seconds_bucket{le="1.0",route="/model-info"} 1.0
+heartml_http_duration_seconds_bucket{le="2.0",route="/model-info"} 1.0
+heartml_http_duration_seconds_bucket{le="5.0",route="/model-info"} 1.0
+heartml_http_duration_seconds_bucket{le="+Inf",route="/model-info"} 1.0
+heartml_http_duration_seconds_count{route="/model-info"} 1.0
+heartml_http_duration_seconds_sum{route="/model-info"} 0.00036242500027583446
+heartml_http_duration_seconds_bucket{le="0.005",route="/predict"} 29.0
+heartml_http_duration_seconds_bucket{le="0.01",route="/predict"} 30.0
+heartml_http_duration_seconds_bucket{le="0.025",route="/predict"} 32.0
+heartml_http_duration_seconds_bucket{le="0.05",route="/predict"} 32.0
+heartml_http_duration_seconds_bucket{le="0.1",route="/predict"} 32.0
+heartml_http_duration_seconds_bucket{le="0.25",route="/predict"} 32.0
+heartml_http_duration_seconds_bucket{le="0.5",route="/predict"} 32.0
+heartml_http_duration_seconds_bucket{le="1.0",route="/predict"} 32.0
+heartml_http_duration_seconds_bucket{le="2.0",route="/predict"} 32.0
+heartml_http_duration_seconds_bucket{le="5.0",route="/predict"} 32.0
+heartml_http_duration_seconds_bucket{le="+Inf",route="/predict"} 32.0
+heartml_http_duration_seconds_count{route="/predict"} 32.0
+heartml_http_duration_seconds_sum{route="/predict"} 0.14087967200157436
+heartml_http_duration_seconds_bucket{le="0.005",route="/metrics"} 1.0
+heartml_http_duration_seconds_bucket{le="0.01",route="/metrics"} 1.0
+heartml_http_duration_seconds_bucket{le="0.025",route="/metrics"} 1.0
+heartml_http_duration_seconds_bucket{le="0.05",route="/metrics"} 1.0
+heartml_http_duration_seconds_bucket{le="0.1",route="/metrics"} 1.0
+heartml_http_duration_seconds_bucket{le="0.25",route="/metrics"} 1.0
+heartml_http_duration_seconds_bucket{le="0.5",route="/metrics"} 1.0
+heartml_http_duration_seconds_bucket{le="1.0",route="/metrics"} 1.0
+heartml_http_duration_seconds_bucket{le="2.0",route="/metrics"} 1.0
+heartml_http_duration_seconds_bucket{le="5.0",route="/metrics"} 1.0
+heartml_http_duration_seconds_bucket{le="+Inf",route="/metrics"} 1.0
+heartml_http_duration_seconds_count{route="/metrics"} 1.0
+heartml_http_duration_seconds_sum{route="/metrics"} 0.001054336999914085
+# HELP heartml_http_duration_seconds_created API request time
+# TYPE heartml_http_duration_seconds_created gauge
+heartml_http_duration_seconds_created{route="/ready"} 1.791708341200599e+09
+heartml_http_duration_seconds_created{route="/health"} 1.7917083439949982e+09
+heartml_http_duration_seconds_created{route="/model-info"} 1.7917083440119424e+09
+heartml_http_duration_seconds_created{route="/predict"} 1.7917083440259106e+09
+heartml_http_duration_seconds_created{route="/metrics"} 1.7917083440290933e+09
+# HELP heartml_predictions_total Served predictions
+# TYPE heartml_predictions_total counter
+heartml_predictions_total{class_label="0"} 31.0
+# HELP heartml_predictions_created Served predictions
+# TYPE heartml_predictions_created gauge
+heartml_predictions_created{class_label="0"} 1.7917083440254362e+09

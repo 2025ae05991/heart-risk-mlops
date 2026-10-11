@@ -1,0 +1,15 @@
+﻿NAME                                  READY   STATUS    RESTARTS   AGE     IP          NODE             NOMINATED NODE   READINESS GATES
+pod/grafana-5474b9474b-krqqn          1/1     Running   0          3m51s   10.1.0.11   docker-desktop   <none>           <none>
+pod/heart-risk-api-6cc47ddd48-4t74k   1/1     Running   0          4m18s   10.1.0.9    docker-desktop   <none>           <none>
+pod/heart-risk-api-6cc47ddd48-5qc55   1/1     Running   0          4m39s   10.1.0.6    docker-desktop   <none>           <none>
+pod/prometheus-b7547f9b6-tr5dh        1/1     Running   0          3m51s   10.1.0.10   docker-desktop   <none>           <none>
+
+NAME                     TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE     SELECTOR
+service/grafana          ClusterIP      10.111.237.60   <none>        3000/TCP         3m51s   app=grafana
+service/heart-risk-api   LoadBalancer   10.96.62.119    localhost     8000:32107/TCP   4m40s   app=heart-risk-api
+service/prometheus       ClusterIP      10.98.8.155     <none>        9090/TCP         3m51s   app=prometheus
+
+NAME                             READY   UP-TO-DATE   AVAILABLE   AGE     CONTAINERS   IMAGES                               SELECTOR
+deployment.apps/grafana          1/1     1            1           3m51s   grafana      grafana/grafana:11.6.1               app=grafana
+deployment.apps/heart-risk-api   2/2     2            2           4m40s   api          ameerbashacloud/heart-risk-api:1.0   app=heart-risk-api
+deployment.apps/prometheus       1/1     1            1           3m51s   prometheus   prom/prometheus:v3.3.0               app=prometheus

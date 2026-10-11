@@ -1,0 +1,9 @@
+﻿{
+    "image":  "heart-risk-api:1.0",
+    "executed_at":  "2026-10-11T11:19:38.5407666Z",
+    "passed":  true,
+    "image_id":  "sha256:3883f03eb7cf397c25a6394d01a74c16b0a39d79a80e3da1a33385d13342e5b9",
+    "model_version":  "ae966e5fe13b",
+    "container_id":  "4cd042258398c7c0b17ea5ef0ecd76a0f7ac3149e034adb4870729fda8dcd52b",
+    "host_mount_count":  0
+}

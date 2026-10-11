@@ -1,0 +1,170 @@
+{
+  "generated_at": "2026-10-11T08:59:55.053070+00:00",
+  "repository_url": "",
+  "github_run_url": "",
+  "ready_for_submission": false,
+  "checks": [
+    {
+      "id": "model",
+      "label": "Data and reusable model",
+      "status": "passed",
+      "details": "Saved pipeline matches its metadata SHA-256",
+      "evidence": [
+        "data/processed/heart_clean.csv",
+        "artifacts/model/model.joblib",
+        "artifacts/model/metadata.json"
+      ]
+    },
+    {
+      "id": "experiments",
+      "label": "Full training and MLflow history",
+      "status": "passed",
+      "details": "Twelve candidates, five folds, and at least thirteen tracked runs",
+      "evidence": [
+        "reports/model_comparison.csv",
+        "evidence/mlflow_runs.json"
+      ]
+    },
+    {
+      "id": "tests",
+      "label": "Unit tests",
+      "status": "passed",
+      "details": "JUnit contains no test failures or errors",
+      "evidence": [
+        "evidence/junit.xml",
+        "evidence/tests.log"
+      ]
+    },
+    {
+      "id": "docker",
+      "label": "Isolated Docker build and serving",
+      "status": "pending",
+      "details": "Missing evidence/docker_smoke.json, evidence/docker_validation.json, evidence/docker_build_run.txt",
+      "evidence": [
+        "evidence/docker_smoke.json",
+        "evidence/docker_validation.json",
+        "evidence/docker_build_run.txt"
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "label": "Docker Desktop Kubernetes and LoadBalancer",
+      "status": "pending",
+      "details": "Missing evidence/kubernetes_smoke.json, evidence/kubernetes_validation.json",
+      "evidence": [
+        "evidence/kubernetes_smoke.json",
+        "evidence/kubernetes_validation.json"
+      ]
+    },
+    {
+      "id": "dashboard",
+      "label": "Live API monitoring demonstration",
+      "status": "passed",
+      "details": "Live serving-process metrics and genuine dashboard screenshot included",
+      "evidence": [
+        "evidence/dashboard_snapshot.json",
+        "screenshots/local_api_dashboard.png"
+      ]
+    },
+    {
+      "id": "monitoring",
+      "label": "Prometheus and Grafana on the cluster",
+      "status": "pending",
+      "details": "Missing evidence/monitoring_validation.json",
+      "evidence": [
+        "evidence/monitoring_validation.json"
+      ]
+    },
+    {
+      "id": "ci",
+      "label": "Hosted GitHub Actions",
+      "status": "pending",
+      "details": "Missing evidence/github_run.json, evidence/github_actions.log",
+      "evidence": [
+        "evidence/github_run.json",
+        "evidence/github_actions.log"
+      ]
+    },
+    {
+      "id": "repository",
+      "label": "Actual code repository link",
+      "status": "pending",
+      "details": "Add your actual repository URL",
+      "evidence": []
+    },
+    {
+      "id": "image_github_actions.png",
+      "label": "Screenshot github_actions.png",
+      "status": "pending",
+      "details": "Missing screenshots/github_actions.png",
+      "evidence": [
+        "screenshots/github_actions.png"
+      ]
+    },
+    {
+      "id": "image_docker_build_run.png",
+      "label": "Screenshot docker_build_run.png",
+      "status": "pending",
+      "details": "Missing screenshots/docker_build_run.png",
+      "evidence": [
+        "screenshots/docker_build_run.png"
+      ]
+    },
+    {
+      "id": "image_kubernetes_resources.png",
+      "label": "Screenshot kubernetes_resources.png",
+      "status": "pending",
+      "details": "Missing screenshots/kubernetes_resources.png",
+      "evidence": [
+        "screenshots/kubernetes_resources.png"
+      ]
+    },
+    {
+      "id": "image_kubernetes_prediction.png",
+      "label": "Screenshot kubernetes_prediction.png",
+      "status": "pending",
+      "details": "Missing screenshots/kubernetes_prediction.png",
+      "evidence": [
+        "screenshots/kubernetes_prediction.png"
+      ]
+    },
+    {
+      "id": "image_prometheus_targets.png",
+      "label": "Screenshot prometheus_targets.png",
+      "status": "pending",
+      "details": "Missing screenshots/prometheus_targets.png",
+      "evidence": [
+        "screenshots/prometheus_targets.png"
+      ]
+    },
+    {
+      "id": "image_grafana_dashboard.png",
+      "label": "Screenshot grafana_dashboard.png",
+      "status": "pending",
+      "details": "Missing screenshots/grafana_dashboard.png",
+      "evidence": [
+        "screenshots/grafana_dashboard.png"
+      ]
+    },
+    {
+      "id": "video",
+      "label": "Complete pipeline video",
+      "status": "pending",
+      "details": "Missing evidence/Assignment_Full_Pipeline_Demo.mp4",
+      "evidence": [
+        "evidence/Assignment_Full_Pipeline_Demo.mp4"
+      ]
+    },
+    {
+      "id": "documents",
+      "label": "Report and setup document",
+      "status": "passed",
+      "details": "Documents included; the report builder separately enforces exactly ten pages",
+      "evidence": [
+        "docs/MLOps_Assignment_1_Report.pdf",
+        "docs/Docker_Desktop_Setup_and_Run_Guide.docx"
+      ]
+    }
+  ],
+  "scope": "File and recorded-check audit; screenshots and video require personal review"
+}

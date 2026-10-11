@@ -1,0 +1,18 @@
+groups:
+  - name: heartml
+    rules:
+      - alert: HeartAPIPodDown
+        expr: up{job="heart-risk-api"} == 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: Heart API pod is not responding to Prometheus
+      - alert: HeartAPIServerErrors
+        expr: sum(rate(heartml_http_requests_total{status=~"5.."}[2m])) > 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: Heart API is returning server errors
+

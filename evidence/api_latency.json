@@ -1,0 +1,6 @@
+{
+  "sample_size": 30,
+  "execution": "local single-process sequential requests; includes HTTP round trip",
+  "latency_ms_mean": 5.010166233356965,
+  "latency_ms_p95": 6.036034999851836
+}

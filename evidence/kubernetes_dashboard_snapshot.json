@@ -1,0 +1,18 @@
+﻿{
+    "sampled_at":  1791718747.6613126,
+    "instance":  "heart-risk-api-6cc47ddd48-4t74k:1",
+    "model_ready":  true,
+    "model_version":  "ae966e5fe13b",
+    "prediction_count_by_class":  {
+                                      "0":  1,
+                                      "1":  0
+                                  },
+    "prediction_responses_by_status":  {
+                                           "200":  1,
+                                           "422":  1
+                                       },
+    "prediction_http_requests":  2,
+    "mean_prediction_latency_ms":  484.484,
+    "memory_bytes":  175841280,
+    "process_uptime_seconds":  258
+}

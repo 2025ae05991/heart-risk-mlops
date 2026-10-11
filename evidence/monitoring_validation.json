@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "executed_at": "2026-10-11T13:15:47.783680+00:00",
+  "expected_api_pods": 2,
+  "healthy_pods": [
+    "heart-risk-api-6cc47ddd48-4t74k",
+    "heart-risk-api-6cc47ddd48-5qc55"
+  ],
+  "prometheus_values": {
+    "healthy_api_pods": 2.0,
+    "served_predictions": 913.0,
+    "successful_predictions": 913.0,
+    "validation_errors": 104.0,
+    "prediction_p95_seconds": 0.09703125
+  },
+  "grafana_database": "ok",
+  "grafana_dashboard_uid": "heartml-api",
+  "grafana_panel_count": 6,
+  "grafana_datasource_query_passed": true
+}

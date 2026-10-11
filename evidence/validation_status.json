@@ -1,0 +1,28 @@
+{
+  "validation_date": "2026-10-11",
+  "python_version": "3.12.14",
+  "full_training_executed": true,
+  "model_candidates": 12,
+  "cross_validation_folds": 5,
+  "unit_tests_passed": 29,
+  "lint_passed": true,
+  "format_check_passed": true,
+  "pip_check_passed": true,
+  "host_api_smoke_passed": true,
+  "swagger_ui_browser_prediction_passed": true,
+  "powershell_syntax_passed": [
+    "collect_evidence.ps1",
+    "collect_github_evidence.ps1",
+    "complete_assignment.ps1",
+    "deploy.ps1",
+    "docker_smoke.ps1"
+  ],
+  "docker_build_executed": false,
+  "kubernetes_deployment_executed": false,
+  "hosted_github_actions_executed": false,
+  "prometheus_grafana_stack_executed": false,
+  "video_scope": "Executed host API, MLflow, EDA, 29-test evidence and live API monitoring dashboard; Docker Desktop portion pending",
+  "model_sha256": "2bd5b7c78e24d74e957f930bb1bb2592204dcb26f094dfa636bf059a6598815f",
+  "host_api_dashboard_executed": true,
+  "submission_checker_executed": true
+}

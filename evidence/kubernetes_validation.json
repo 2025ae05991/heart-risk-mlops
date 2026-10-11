@@ -1,0 +1,12 @@
+﻿{
+    "executed_at":  "2026-10-11T11:39:07.7630131Z",
+    "service_type":  "LoadBalancer",
+    "passed":  true,
+    "api_pods":  [
+                     "heart-risk-api-6cc47ddd48-4t74k",
+                     "heart-risk-api-6cc47ddd48-5qc55"
+                 ],
+    "model_version":  "ae966e5fe13b",
+    "ready_api_pods":  2,
+    "context":  "docker-desktop"
+}

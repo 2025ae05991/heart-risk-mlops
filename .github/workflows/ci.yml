@@ -1,0 +1,67 @@
+name: HeartML CI
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-train-container:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements.txt -e .
+      - name: Verify and prepare data
+        run: python scripts/download_data.py
+      - name: Lint and format check
+        run: |
+          ruff check .
+          ruff format --check .
+      - name: Unit tests
+        run: |
+          set -o pipefail
+          mkdir -p evidence
+          pytest --cov=heartml --cov-report=term-missing --cov-report=xml:evidence/coverage.xml --junitxml=evidence/junit.xml | tee evidence/tests.log
+      - name: Full EDA and model comparison
+        run: |
+          set -o pipefail
+          python scripts/run_pipeline.py | tee evidence/training.log
+      - name: Validate model package and quality gates
+        run: python scripts/validate_model.py
+      - name: Export experiment records
+        run: python scripts/export_mlflow.py
+      - name: Build isolated serving container
+        run: docker build -t heart-risk-api:ci .
+      - name: Test isolated container
+        run: |
+          docker run -d --name heartml-ci -p 127.0.0.1:8001:8000 heart-risk-api:ci
+          curl --retry 30 --retry-all-errors --retry-delay 2 --fail http://127.0.0.1:8001/ready
+          MODEL_VERSION=$(python -c "import json; print(json.load(open('artifacts/model/metadata.json'))['model_version'])")
+          python scripts/smoke_api.py --url http://127.0.0.1:8001 --expected-model-version "$MODEL_VERSION" --output evidence/docker_smoke.json
+      - name: Save container logs
+        if: always()
+        run: |
+          mkdir -p evidence
+          docker logs heartml-ci > evidence/docker.log 2>&1 || true
+          docker rm -f heartml-ci || true
+      - name: Upload workflow evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: heartml-run-${{ github.run_number }}
+          path: |
+            reports/
+            evidence/
+            artifacts/model/
+            coverage.xml
+            mlflow.db
+            mlartifacts/
+          retention-days: 14
+          if-no-files-found: warn
+

@@ -1,0 +1,562 @@
+﻿[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     Started server process [1]
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     Waiting for application startup.
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "model_loaded", "model_version": "ae966e5fe13b"}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     Application startup complete.
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "4740b69e-73d6-4f36-afba-2093c70a2185", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 5.675}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:42928 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "277f96c5-0c39-4b29-be0f-bad70edaa224", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 2.575}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:42940 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "1b7fbbed-66fb-4eff-8c04-30754c4dd79d", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.055}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:42946 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "d11f3a06-064a-4228-9f7a-76fc0c7b5107", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.627}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:45630 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "93cab22b-6828-4f11-9119-46de8341e04d", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.681}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:45638 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:45650 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "4a7031d0-2048-43ae-9d8b-34c5e2680fbb", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.293}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "5d91aff7-550e-45ec-be7a-6d658282a6c6", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.539}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:52784 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "c8de4eb2-e243-498b-a8cc-40a89086402a", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.814}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:52788 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "a0e74051-74e6-4a4a-974d-294935b80411", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.553}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:52802 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "9df00488-9eef-4fc7-9dcd-d71e12da909f", "method": "GET", "route": "/health", "status": 200, "duration_ms": 2.834}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:46554 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:46568 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "eff97533-40ae-48e6-9ba8-3276916e5b2a", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.597}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:46578 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "debe395e-9b00-4504-a3dd-95197162b76d", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.478}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "37bb33ae-13ef-4099-98d1-9d7f41b0f29d", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.823}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:57322 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "0ac9c7c1-b94b-4911-8280-27d0a6869843", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.493}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:57330 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "89eec0b1-b440-4918-8dd5-b1d11917fc07", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.754}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:57342 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:35484 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "83d22ba3-7753-451c-b8c9-a585ada688bb", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 4.619}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "621efe09-e3f6-45b1-aa86-cd617ae83751", "method": "GET", "route": "/health", "status": 200, "duration_ms": 2.024}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:58698 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "836ba4ee-010d-4d71-ab15-9549a5db3a50", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 2.407}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:58700 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "1a749b29-3215-47de-a7b0-3cbf12dabc99", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 2.242}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:58708 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:45746 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "28cce013-e543-4401-ad54-6839b0b5589d", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 4.312}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "38baf7a1-7ab5-4391-9f4c-c0f2c7428572", "method": "GET", "route": "/health", "status": 200, "duration_ms": 2.443}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:39868 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "5ac148e6-4446-4ebe-80cd-ef10469104b8", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.361}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:39880 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "026aa4a6-b68f-4377-b368-dab6b75e20b0", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.435}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:39886 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:44746 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "f98c1eaa-d8fd-4c91-978d-a0cc85df7812", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 2.66}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "df8d2a5f-fa30-4777-bc12-299ece468eee", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.975}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:53638 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:53644 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "94fcae04-beb8-4af9-9262-39d010178109", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.272}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "eefab67b-a6f0-4c8c-8eab-44914ed018d4", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.128}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:53656 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "7fdcbe46-fcfb-4178-a322-e4eecf49dd03", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 3.023}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:51388 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "ebc653ba-597b-406b-a779-43f77f40699a", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.661}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:45884 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "233a686f-246d-4c7d-be17-65060ed1ce66", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.726}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:45890 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "fa9e0cdd-aeda-444b-b15e-47c9db20bc0e", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.023}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:45894 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "9a9e37f3-1a60-4104-a9d4-b45c9a44b5cf", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 3.198}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:38668 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "758309cf-cf50-4b23-97e9-8a95a1bf8ae8", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.352}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:35446 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "9a57afd9-da7a-4412-8c74-2f43afcd03e6", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.991}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:35450 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "7a7b936b-2ceb-48c6-ac76-377249102663", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.631}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:35466 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "979fe4f2-a0f5-48cd-9867-207baf053896", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.313}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:51920 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "1b2d737c-e4ca-47f2-868e-2ce3616079ff", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.732}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:59944 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "4e62d6c9-35e6-4f83-836b-f0494920a3f7", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.749}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:59950 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "f0fb27ec-e331-4dc9-8109-b80dc64ead4b", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.275}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:59966 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "c14aeb7c-0782-4efa-834d-7f381764e1e1", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 3.046}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:46208 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:59830 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "a567b883-7f7e-4212-af55-b232752311e2", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.16}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "3bb1cd37-d9a1-49b8-bf34-67c71ff1d07d", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.854}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:59842 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "37df97d5-4ce2-4cde-8b12-701c632665dc", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 2.034}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:59846 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "bda5b51e-7b52-4b60-86ae-e6b4d0feb595", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 3.512}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:58046 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:57868 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "7732824d-1993-4b19-964a-0a752cc878e2", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.926}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "637b9d93-ed88-4094-b85a-4be23f27db68", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.984}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:57870 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "732f37a7-74c5-472c-bc28-6ac34a2b7b7f", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.948}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:57880 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "785da5c8-eb91-4a4f-9719-4b66c481d11c", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.403}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:50050 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "ba8ecc46-e946-4d19-845a-3e75dfafe83f", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.902}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:57940 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "4636bdde-3309-4a4c-bd56-26103b42a445", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.697}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:57952 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "dd2a6482-34a6-48cf-a8f9-feddf44907fd", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.066}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:57958 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "bad813ea-938e-4511-83d2-f22041b39c84", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.494}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:57466 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "c8a3d0b1-f1dd-4efd-a013-8c5f69ea828c", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.6}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:32884 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "be197eca-5378-4ad2-a697-82015c72253e", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 3.687}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:32890 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:32894 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "203625c1-13b7-49cb-ad63-d69b02c38ac5", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.927}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:59638 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "286be2d0-f376-4891-a4b8-f3b142358631", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.605}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:56334 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "8674a177-eda6-43c7-aa2e-012e2f6759a3", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.744}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "63b3de22-b44e-4b2b-ab4b-eeabea941a12", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.674}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:56348 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "4cc40173-64a0-424c-8249-4c9665959d79", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.769}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:56362 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:35126 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "028c8972-99bd-45de-8299-8c2b086a995a", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 262.905}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:34036 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "ed5c498e-5dce-4549-ad55-923dd3125630", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.769}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "b4c69a35-7c74-48ea-a301-a6a3599abb14", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.869}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:34040 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "2535ceed-394f-45bc-8c04-34e5414c4e0c", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.142}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:34048 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:50624 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "d8e68920-487d-4bc1-bb70-43dd302c8141", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.714}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "be99056b-4659-423f-a93a-df49742938b0", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.706}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:36082 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "bcff8c77-a0b8-4a44-860b-1cc80f619a4b", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.618}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:36086 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:36090 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "e8d21f69-42d4-4d0d-aed2-c2e2f57ccbbc", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.697}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "1aa7a9b0-4e58-4172-8af0-574eae570862", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.342}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:40074 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "de37ae40-72a2-455a-ad02-b2851b5fdfbb", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.03}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:37026 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:37034 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "dffb6be2-7dea-41c8-a360-c36718e6d460", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.668}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "46172842-67a4-4e06-b303-bf4049a05714", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.861}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:37048 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:60128 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "aa972610-6b49-4a40-a428-395068ed7dd8", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.39}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "8e9af09f-d3b0-43ef-9c81-8c83716d6e52", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.232}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:49126 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "33d48b7b-f272-45a0-af59-f5360fd7828c", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.805}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:49138 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:49144 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "7908d3a4-1967-42f0-8b76-68772346cb43", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.809}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "5ce73366-227e-41bb-a855-d6b0908984b4", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.743}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:55932 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "6dfbae7e-1bc2-4b34-a01d-5d91e847955b", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.88}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:51986 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "88715e53-dfb8-443c-9c91-8d3443a27a5d", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.049}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:51988 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "f8ef1759-80b8-448f-937c-1472115c1169", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.83}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:51994 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "ce732e9e-168d-4bb7-bc29-d0caa0f7c6a9", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.258}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:39912 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "9224f12f-7396-45ab-8ee0-6fca5610cf55", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.672}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:50952 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:50958 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "806381b4-c278-496d-8b53-8aefa5081d91", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.552}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:50962 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "a239707f-5d41-42a1-a1ce-0647148ea705", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.555}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "39aa4f8b-a494-4bd4-bc76-e9ba008fe210", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.102}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:33788 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "73765285-3ab9-4b48-9567-caa459f0142d", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.744}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:36404 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "e88cec01-2658-46ff-bc8a-f8f17d210ce8", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.707}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:36416 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:36420 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "cda71dd7-fea0-416b-8118-1a7b5c849ac7", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.79}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "dbf22e5d-4405-4edb-924e-e08b1d44f54a", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 2.977}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:43384 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "487ed8a0-d9c6-4d83-8584-0c0290ef3609", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.789}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:52368 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "f7752fc7-6d53-4d86-9aab-7818a8f83495", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.71}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:52370 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "ba901e72-d778-4d44-95d1-acbadcc274c3", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.775}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:52382 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:40958 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "308722ac-03bc-4466-bae9-7699fee78d96", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.951}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:38536 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "83b26d9c-0c37-4611-beee-4e040750c836", "method": "GET", "route": "/health", "status": 200, "duration_ms": 2.222}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:38546 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "f59d9c19-44e7-402f-ab2c-a2d7e933fbb5", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 2.047}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "53cfc54f-8bee-4177-95b8-34be5d35af76", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.75}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:38558 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.10:59470 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "328b7a0e-a40c-4d4c-82cf-5b5352f0a91a", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 2.063}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "55ee37b6-3963-4281-8695-460dc11323c4", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.343}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     192.168.65.3:40840 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "51d6676c-f281-4cce-a846-5c7828039467", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.978}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     192.168.65.3:40840 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "be71f391-1cfa-4e12-b8e6-0fc0de424ac5", "method": "GET", "route": "/model-info", "status": 200, "duration_ms": 16.436}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     192.168.65.3:40840 - "GET /model-info HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "e636b42e-fd4f-4ac2-8fa7-bb91211b0935", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.02}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:58390 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "807933cc-14c4-4422-bf0c-00fd1774cf76", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 154.378}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     10.1.0.1:58394 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "68cd28be-1728-4fef-8d37-0225350d9345", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 959.115}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     192.168.65.3:40840 - "POST /predict HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "b39767c0-a618-4e54-b4f9-169660e9bd80", "method": "POST", "route": "/predict", "status": 422, "duration_ms": 9.854}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     192.168.65.3:40840 - "POST /predict HTTP/1.1" 422 Unprocessable Entity
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "8038bf52-1275-4d07-9275-16b4f037c2ac", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 3.109}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     192.168.65.3:40840 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] {"event": "http_request", "request_id": "dd7d6f58-7351-4bcf-8c69-6ffe86eceb5e", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 2.46}
+[pod/heart-risk-api-6cc47ddd48-4t74k/api] INFO:     192.168.65.3:40856 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     Started server process [1]
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     Waiting for application startup.
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "model_loaded", "model_version": "ae966e5fe13b"}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     Application startup complete.
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "1af58f3e-4a4b-48bf-aef8-daea7b089b0e", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 6.087}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:42220 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "a6accdb3-b339-496b-82f4-b2799c9c0a07", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 11.105}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:42232 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "41f8a434-34c2-4a18-a144-d14beaf8fbdf", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.446}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:42236 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "a95de363-99ca-4f69-8094-872be3d0779b", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.201}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:53468 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "004e7119-522b-44bf-8185-df81439489c6", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.463}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:53476 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "50acfa76-d19c-465d-82f9-80c050ac72a5", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.439}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:53484 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:38560 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "c729d257-510b-4718-8c2a-ebc4356800e0", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.689}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:38572 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "049333ef-f290-45cf-adc1-49b0b0c7ebbe", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.426}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "be4266f9-3dfb-4722-a8d3-f724cb0a1625", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.074}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:38588 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "d43e266c-603d-4859-bc46-970feac0def4", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.781}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:41300 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:41304 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "9acef27c-0de6-40fd-b471-f3c9f9d15372", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.414}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "3378167d-fc59-457e-9e82-fe7f9ce5fc20", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 2.078}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:41316 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "e4c8ccf6-f2ce-42e2-80f3-4398b09f84ae", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.945}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:43278 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:43288 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "be615229-b6ff-4e0c-9157-712ce3d4457f", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.446}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "33d0fb1b-6774-4e89-a936-e800b50c95bb", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.253}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:43296 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "6b4ffe8d-09dc-439f-aa94-3369406d1b2d", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.321}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:40400 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "8cd375e3-6a81-4c40-9dd0-1c312b8fd8fc", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.808}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:40404 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:40420 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "f0fa8afd-e0e5-46cb-bcbc-12687e3d372b", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.596}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "73cb92a4-4fbf-4a2c-bdfc-9463db014449", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 3.941}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:53512 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "d1dc8c5d-00b9-4038-ba1b-3f65d27f8362", "method": "GET", "route": "/health", "status": 200, "duration_ms": 3.318}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:39280 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "ea8961ca-e5b0-47c3-be57-0e5e9efec40d", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 2.433}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:39284 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "0302cb15-f110-411e-8023-f5c766679932", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 2.849}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:39288 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "94da666b-f4f8-4be3-91ba-cff8d78722c3", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 46.115}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:47014 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "32eedb82-c182-4bde-93c5-0a0f8e63d64a", "method": "GET", "route": "/health", "status": 200, "duration_ms": 2.215}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:34870 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "2233ccda-6864-4bd1-8ed9-a9af76f18f93", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 3.057}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:34876 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "2e8e597b-d5f4-4dc9-bc2c-26aab87b2871", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 3.061}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:34892 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "5db74d0e-ed37-45dd-b889-2007d7fd7419", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 9.712}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:41960 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "0059f54c-bec6-403d-ba7f-d78e4a80d52b", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.865}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:59270 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "2ec20a8e-f21d-4d35-a6cd-525a37d4882c", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 2.278}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:59274 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "ee5f655a-aa9e-4e16-b2de-04d18212539e", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 2.844}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:59276 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:54226 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "aacec4dc-c93a-4971-b60e-f224a9fbbce6", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.777}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "09f1793f-9044-4dfc-b984-d0278e641763", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.908}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:39688 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "7327bf41-31f3-4f2f-afe3-9f30370dfafe", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.982}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:39692 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:39698 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "c6786237-32c4-4664-8597-989b43cedee8", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.963}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "d0da87c5-413f-44d3-a1c3-5d549c1dd5dc", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.435}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:47852 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "af8855b5-6734-4f47-9887-6e1c16309b3c", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.095}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:44176 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:44180 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "03720e89-c06f-4be2-846c-0ab3db165861", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.872}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "97192355-2903-4ea2-9fc0-6114c088c67f", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.028}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:44190 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "6b6c406d-fd03-4263-900a-a317af567e76", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.449}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:35030 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "a0119978-aec0-439f-bd60-236f0121b5dc", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.742}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:49138 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "cfd4bcdf-94e0-43ea-9890-9ad6ec5be440", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.989}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:49144 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "4d2c6c1b-73c4-459d-bb22-a15cd3cbcb2c", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.932}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:49150 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "bb3023dd-f9b6-4d1e-9f02-49b0a48c820c", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 3.363}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:39982 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "a7b62342-d12e-400e-9ead-5d6e55391fe1", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.63}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:44342 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:44346 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "556d3fb6-b71c-4761-89c7-5e7eb627d18c", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.252}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "602690d7-dcd8-40fa-aff9-d77b88647d11", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.982}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:44356 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "c8ed4527-0f39-4821-bc00-3827b03ef10a", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 4.823}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:35912 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "0793a6a5-8b25-4d32-a7fd-ff27dfa58a52", "method": "GET", "route": "/health", "status": 200, "duration_ms": 2.528}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:40102 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:40114 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "e727abbe-f3b5-48e8-a6b8-7613ceaff107", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.019}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "7d0467a0-9ce9-4eab-a01e-13c664525c5e", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.263}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:40130 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "db203f8d-45ba-40ff-88ec-e14d3778bfb4", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.788}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:40858 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "0d3ac76a-b124-48f4-8b2f-f00483c34379", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.294}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:40976 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "2fe84c7f-d382-43e0-a93c-98bd5988d8d0", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.769}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:40986 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "af8a2c71-d1b3-4adb-ba1a-2571c093e56e", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 8.556}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "f27f6449-fea3-44c2-8d9d-caada9e1fef1", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.015}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:40988 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "37cafef9-c2f9-427f-9172-b827cdd13e6c", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 132.496}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "624b4d2a-b5fd-40bf-b915-259e644c7002", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.761}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:52306 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "2c9abd17-c17e-413a-9798-333ef8872487", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.492}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:53694 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "393cee5e-ee98-402c-9fd9-f40d04f5dd6b", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.908}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "33175c37-6464-40e4-a5be-c0ef8b7bafde", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.637}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:53698 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "19ea1886-8302-4483-8bdc-d17b20e89e20", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.753}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "11e8b627-dfa2-4800-a32c-dcc36bceea1d", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.541}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "b71ca47b-84bb-495d-9fd0-82839f19febe", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 2.013}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:53704 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "fa537c4e-fd13-49bb-9000-448a97c8572c", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.144}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "5a950fb8-036c-4f4a-87c1-e0e614315c70", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 2.584}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "4bb9543b-205a-4631-829c-a05cde8ff11d", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.922}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:37738 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "79f3f053-f80f-4a6b-aa50-6b327005662d", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.123}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:47574 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "f7b6fd62-60f9-4fe6-bd9e-d45b8704c62a", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.685}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "083b566f-c217-4a36-9b3d-1b7bf7167411", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.755}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:47576 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "7886d216-c45c-429a-895c-6dce81e7b296", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.272}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "5d0644ce-9582-4c90-b6b8-663f680bc1e3", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.447}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "213ddeeb-1551-4168-8f04-143173780c6b", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.462}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "5f883908-7f5f-4611-9611-88e7b820c6a9", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.491}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:47580 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "83e172f8-7032-4307-ab37-3b758fe7fff9", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.85}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "eda49e37-9113-406b-ba84-f6e9882f12dc", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.749}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:56756 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "4575a644-f1bc-4f2d-901f-9132de35ff8d", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.409}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "a5c65994-c0fa-4aff-84c1-764d8dd0760f", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.864}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:57508 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "0e613708-73d3-46e0-8c13-9051d075b783", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.903}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:57520 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "f585dc14-e3c4-45fc-bc3c-a2cd42aa23ae", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.363}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "68ec58f2-2c4e-4613-b961-8cd9a788da3d", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.378}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "53a2bfb6-0759-41c3-8c26-4c4e6e644289", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 3.459}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:57522 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "d779dbe4-eeb4-470b-b5a5-1a3bc48e15a1", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.755}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "a25ea895-ce2e-4d41-97df-279926f98148", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.306}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:50332 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "bd5580f3-d92a-454c-983b-1ecb6ecbe7ec", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.629}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "b1b95901-d7e7-48b3-865a-25ea6c6545fe", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.506}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "a8821f01-3d5a-4b4f-9618-c20045d9b052", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.71}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:34320 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "aff36fbf-2a7c-40b0-945e-9d525519e6e8", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.766}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:34324 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "c8a6c90a-0f20-4087-8b09-c0bd964d0a04", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.465}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "af83ec05-5be7-4d16-8ac0-98d27909e487", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.955}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "b380fca6-1f1d-4386-a8ef-a22050242861", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.7}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "df449234-a1c4-444b-bb22-4093dfa12ff3", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.975}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:34340 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "95a8c0b7-de8c-4fb5-965e-4353dff4e741", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.764}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "42540747-f1ad-4636-b796-588f045256ab", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.754}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:50230 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "84323292-34e5-44b4-bcbe-5c832d48b347", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 2.181}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "be7b291a-67bb-4272-9e40-2e1a87511d53", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.787}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:53958 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "cb6cef72-6c20-483c-a7ad-cebe9dabafbf", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.754}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:53966 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "9404f26a-d415-4aab-8333-4345f778af21", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.512}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "abe45d94-8f61-4ae3-b8cb-19ff83de282c", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.443}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "28a41515-b47e-4347-9c1a-882c85f3be0d", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.263}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "59bf4f62-8639-4c6c-9e40-93cfe72e057b", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.918}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:53978 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "0adcc566-a525-4586-b18b-0b5684812f91", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.221}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "fe1300de-e9f9-4a8b-83a2-cfe8186aa44d", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.431}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:42532 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "485bbde6-fa49-4642-91c1-e0c7c2805f20", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.523}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "02ea0cff-85df-4240-a7c5-8fcb8035386c", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.584}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:53324 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "abf78af2-68d6-468f-96f4-658a6a3751fe", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.712}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:53326 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "cb912f29-8b38-4ca7-ab2e-e7565341d2b3", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.582}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "503bfc27-f052-4829-9e7c-ff050c5da2de", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.454}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "7a63a774-5f43-4d49-a2b0-d853a9a2262c", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 2.068}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "19eef319-5d1e-4df8-9b3e-efa2bd0128ee", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.735}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:53336 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "ab770ef5-c615-45e9-98e2-e85eb3435905", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.917}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "d7a50630-db60-4f94-801e-d02144d91881", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.523}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:41130 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "313122a7-c539-40eb-b7ad-fca368554324", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.676}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:36282 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "af418f69-32db-49bd-b2fe-e2eba668a2e1", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.634}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "01732532-dde6-4f5c-b338-4390065f11b3", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.146}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:36294 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "5eb79d8d-669c-485a-b4b7-8b456da5a7b2", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.685}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "3352259c-21df-4f31-b625-228d5377839e", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.495}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "ef2f3d87-78fc-47a2-b0b4-54d7ed8d27bf", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.575}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:36302 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "6b89b4b1-2650-438b-9351-bec1158f1d69", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.847}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "cba542f8-6c38-4f7d-8a0c-5005aa56304c", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.348}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "5769a892-caf8-43b0-b9e8-7040efff87d5", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 2.054}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:36130 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "e2b02315-344b-4a50-9207-f250086932ad", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.248}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "cd602706-76a8-4a2f-9ece-5fbcd3165507", "method": "GET", "route": "unmatched", "status": 404, "duration_ms": 9.08}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET / HTTP/1.1" 404 Not Found
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "81af9937-0c92-45a5-88ac-ddb03c420109", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.624}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:38950 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "5edde8f7-f4db-4a93-93e4-de5cfe3dd901", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.655}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:38958 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "9618fe30-dfd9-46fa-957b-6db1bd8adcc9", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.571}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "42cdb5f9-8c0a-4ac6-a03a-d3f6c7406047", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.224}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "c92d2745-aaf9-4d0c-aae8-2ef5dc9cb9f3", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.437}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "f02486e1-30d6-448e-bd97-ccd2c1779af2", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.914}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:38962 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "597c023f-24d4-40c9-a312-df43cea597df", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.458}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:55460 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "ecb31c6e-5b6f-4068-b324-2bd38d968d1e", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.744}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "7943c56f-6a9f-4d1c-9c16-19802d8417c8", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.221}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:34420 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "973882e5-c9ff-4973-8a8c-22f2297e5900", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.51}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "d3a2e3df-141f-427c-a134-1a3293d00df3", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.848}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:34432 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "60f9cba6-2184-46f5-ae98-e130c7becad1", "method": "GET", "route": "/docs", "status": 200, "duration_ms": 13.84}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /docs HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "786e22ce-a984-4007-8937-0671a274b984", "method": "GET", "route": "unmatched", "status": 200, "duration_ms": 286.218}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /static/swagger-ui-bundle.js HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "84dbcbb2-56a6-4b87-8088-ea1fb5f36908", "method": "GET", "route": "unmatched", "status": 200, "duration_ms": 273.485}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /static/swagger-ui.css HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "047c36dd-a1d2-470d-9e46-09510affcb3b", "method": "GET", "route": "unmatched", "status": 200, "duration_ms": 309.75}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:57868 - "GET /openapi.json HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "3a4ab391-574e-4132-beaa-7e09388f2146", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 2.325}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "eb5d9d26-6bbd-417f-bf99-8e986b7bad1c", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 2.202}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "10b73cce-e6bf-4c34-98b6-1b6d12ebcfa9", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.641}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:34448 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "46516a64-e3ba-496d-aab8-26b31d139aed", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.915}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "4046f98b-6afb-41a6-ba2c-5c26546808b0", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 2.023}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "c405622d-c7a2-47d2-813f-61ca54a222c1", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 2.536}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:46080 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "288448f1-918b-4d31-9d76-81689ea3cbd6", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 3.078}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "d9655a9c-c821-4491-a8f8-e118c1118792", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.807}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:55524 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "9f2d04ad-b90e-43d4-9800-91ed50660e36", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.951}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:55534 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "1c8bdde0-c054-437a-96bb-0c5bc18aff27", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 5.095}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "0eb886f2-ea29-47e3-a3c4-4b528333d260", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.423}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "aa8de71c-ad1f-48ee-94f3-cb9ffec8169a", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.458}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:55542 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "fd82e0f7-d3ea-4382-9850-60727386f17c", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.902}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "91c4d93c-bf00-4173-9fe6-fdb78bbaec91", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 1.547}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "3c360264-3b1c-43bd-a428-473b561a77c2", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 2.248}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:55808 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:59064 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "3cd281d6-5ff3-4235-b97c-2b01961f976d", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.211}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "81237781-c4b0-48fc-8498-fa33b9757507", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.151}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:59064 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:59064 - "GET /model-info HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "5d57039a-8e5d-4fa3-a5ca-eca47da18198", "method": "GET", "route": "/model-info", "status": 200, "duration_ms": 1.226}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "9034d012-d632-4f0b-8d23-1fd19581100e", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 942.906}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:59064 - "POST /predict HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "66b2ad76-21cc-4b48-ac84-629dc9da7bec", "method": "POST", "route": "/predict", "status": 422, "duration_ms": 8.151}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:59064 - "POST /predict HTTP/1.1" 422 Unprocessable Entity
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "7509072d-5bce-40a0-ae48-c9b0e21a6281", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 2.125}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:59064 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "84700661-5267-408b-a1a2-9c414c023aa8", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 4.347}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "8878ca8f-4a20-4d00-90a9-f2b69f3117b5", "method": "GET", "route": "/health", "status": 200, "duration_ms": 2.163}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:52902 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "27eb6b03-4f46-4ca1-b99c-1f8e4e3b6c4e", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.785}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:52912 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "70b71902-cf6e-4aba-b418-84082a5acd35", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 2.932}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "93378aba-140c-4073-aacf-b326801c1941", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 3.486}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "e0676452-68cc-4fd6-81ce-b049430ad077", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 2.221}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:52924 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "1f5b006b-50eb-4421-b8b8-063de5c71450", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.303}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "e0c89290-19c2-41fa-b045-4d6c9a485c26", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 2.555}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.10:47654 - "GET /metrics HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "908e840d-4295-4f89-8c86-74598ad8c63b", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 2.82}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "10ea9b24-131b-4971-b8a2-9679c22968f4", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 3.823}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:42410 - "GET /health HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "dd34cb86-afbd-4a10-86c7-f64991d7705f", "method": "GET", "route": "/health", "status": 200, "duration_ms": 1.304}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "1d55b0d8-381e-4efe-9eeb-fedcafc1f2bf", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 1.769}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     10.1.0.1:42414 - "GET /ready HTTP/1.1" 200 OK
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] {"event": "http_request", "request_id": "ac01332e-2331-4163-a6dc-06d2d0ff6bd3", "method": "GET", "route": "/monitoring", "status": 200, "duration_ms": 3.588}
+[pod/heart-risk-api-6cc47ddd48-5qc55/api] INFO:     192.168.65.3:51600 - "GET /monitoring HTTP/1.1" 200 OK

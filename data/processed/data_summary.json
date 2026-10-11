@@ -1,0 +1,34 @@
+{
+  "source_url": "https://archive.ics.uci.edu/static/public/45/heart+disease.zip",
+  "citation": "Janosi et al. (1989), UCI Heart Disease, DOI 10.24432/C52P4X",
+  "license": "CC BY 4.0",
+  "raw_sha256": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8",
+  "clean_sha256": "af5cce023100fe2b6288bc26958873b636f58d0dc75159a547ee2e9e4c708deb",
+  "raw_rows": 303,
+  "clean_rows": 303,
+  "duplicates_removed": 0,
+  "raw_predictors": 13,
+  "engineered_predictors": 15,
+  "target_mapping": "num=0 -> 0; num=1,2,3,4 -> 1",
+  "class_counts": {
+    "0": 164,
+    "1": 139
+  },
+  "missing_values": {
+    "age": 0,
+    "sex": 0,
+    "cp": 0,
+    "trestbps": 0,
+    "chol": 0,
+    "fbs": 0,
+    "restecg": 0,
+    "thalach": 0,
+    "exang": 0,
+    "oldpeak": 0,
+    "slope": 0,
+    "ca": 4,
+    "thal": 2,
+    "target": 0
+  },
+  "missing_policy": "Preserve nulls; fit imputers inside training/CV pipelines only."
+}

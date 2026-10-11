@@ -1,0 +1,21 @@
+INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+{"event": "model_loaded", "model_version": "ae966e5fe13b"}
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+{"event": "http_request", "request_id": "34feee75-0406-4103-b4d6-46f313530243", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 2.903}
+INFO:     172.17.0.1:51412 - "GET /ready HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "be92e457-6843-49be-997f-ce538434c8a6", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.828}
+INFO:     127.0.0.1:35294 - "GET /ready HTTP/1.1" 200 OK
+INFO:     172.17.0.1:51418 - "GET /health HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "d00598db-1c5b-43df-93c3-074ce99eae75", "method": "GET", "route": "/health", "status": 200, "duration_ms": 0.832}
+{"event": "http_request", "request_id": "acc5a530-7c1a-4cfb-9cf7-e71ddf90a5bb", "method": "GET", "route": "/ready", "status": 200, "duration_ms": 0.805}
+INFO:     172.17.0.1:51418 - "GET /ready HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "0aa2a4ed-1881-4e5f-8b64-1ef1159eb679", "method": "GET", "route": "/model-info", "status": 200, "duration_ms": 1.136}
+INFO:     172.17.0.1:51418 - "GET /model-info HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "f0b4ad09-7001-4c23-96f2-edb7f1239bac", "method": "POST", "route": "/predict", "status": 200, "duration_ms": 34.45}
+INFO:     172.17.0.1:51418 - "POST /predict HTTP/1.1" 200 OK
+{"event": "http_request", "request_id": "dd1a6b80-5208-44dc-a3ea-22be44f382c5", "method": "POST", "route": "/predict", "status": 422, "duration_ms": 1.61}
+INFO:     172.17.0.1:51418 - "POST /predict HTTP/1.1" 422 Unprocessable Entity
+{"event": "http_request", "request_id": "9e548022-73f9-4535-ac40-f9e53b9aa1ed", "method": "GET", "route": "/metrics", "status": 200, "duration_ms": 1.602}
+INFO:     172.17.0.1:51418 - "GET /metrics HTTP/1.1" 200 OK

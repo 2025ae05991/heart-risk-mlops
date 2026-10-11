@@ -1,0 +1,18 @@
+{
+  "sampled_at": 1791708418.1128051,
+  "instance": "local:6",
+  "model_ready": true,
+  "model_version": "2bd5b7c78e24",
+  "prediction_count_by_class": {
+    "0": 68,
+    "1": 0
+  },
+  "prediction_responses_by_status": {
+    "200": 68,
+    "422": 5
+  },
+  "prediction_http_requests": 73,
+  "mean_prediction_latency_ms": 5.151,
+  "memory_bytes": 216629248,
+  "process_uptime_seconds": 78
+}

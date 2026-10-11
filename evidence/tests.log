@@ -1,0 +1,71 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.3.5, pluggy-1.6.0
+rootdir: F:\Ameer\MTech AI & ML\Semester-3\MLOps\Assignment\ChatGPT\heart-risk-mlops
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.15.1, cov-6.1.1
+collected 29 items
+
+tests\test_api.py ..........                                             [ 34%]
+tests\test_data.py .......                                               [ 58%]
+tests\test_manifests.py ..                                               [ 65%]
+tests\test_model.py ....                                                 [ 79%]
+tests\test_monitoring.py ..                                              [ 86%]
+tests\test_submission.py ....                                            [100%]
+
+============================== warnings summary ===============================
+.venv\Lib\site-packages\starlette\testclient.py:37
+  F:\Ameer\MTech AI & ML\Semester-3\MLOps\Assignment\ChatGPT\heart-risk-mlops\.venv\Lib\site-packages\starlette\testclient.py:37: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+    _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]
+
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:64
+  F:\Ameer\MTech AI & ML\Semester-3\MLOps\Assignment\ChatGPT\heart-risk-mlops\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:85
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:85
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:85
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:85
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:85
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:85
+  F:\Ameer\MTech AI & ML\Semester-3\MLOps\Assignment\ChatGPT\heart-risk-mlops\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:89
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:89
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:89
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:89
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:89
+.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:89
+  F:\Ameer\MTech AI & ML\Semester-3\MLOps\Assignment\ChatGPT\heart-risk-mlops\.venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+.venv\Lib\site-packages\pydantic\_internal\_config.py:323
+  F:\Ameer\MTech AI & ML\Semester-3\MLOps\Assignment\ChatGPT\heart-risk-mlops\.venv\Lib\site-packages\pydantic\_internal\_config.py:323: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+    warnings.warn(DEPRECATION_MESSAGE, DeprecationWarning)
+
+.venv\Lib\site-packages\matplotlib\_mathtext.py:45
+  F:\Ameer\MTech AI & ML\Semester-3\MLOps\Assignment\ChatGPT\heart-risk-mlops\.venv\Lib\site-packages\matplotlib\_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: F:\Ameer\MTech AI & ML\Semester-3\MLOps\Assignment\ChatGPT\heart-risk-mlops\evidence\junit.xml -
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.11.9-final-0 _______________
+
+Name                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------
+src\heartml\__init__.py         1      0   100%
+src\heartml\api.py            144      6    96%   141, 169, 174-175, 221, 223
+src\heartml\data.py            59     23    61%   33-44, 50, 62, 68-89, 95, 97
+src\heartml\eda.py             44     44     0%   3-71
+src\heartml\evaluation.py       4      2    50%   14-15
+src\heartml\features.py        32      2    94%   30, 35
+src\heartml\monitoring.py      77     31    60%   23, 26, 29, 40, 61, 63, 65, 68, 74, 79, 87, 102-126
+src\heartml\settings.py        14      0   100%
+src\heartml\submission.py      95     30    68%   58-59, 84-87, 103-104, 181, 183, 253-280, 284-294
+src\heartml\train.py          139    107    23%   43-60, 74-79, 83-279, 283-286, 290
+---------------------------------------------------------
+TOTAL                         609    245    60%
+Coverage XML written to file evidence/coverage.xml
+======================= 29 passed, 16 warnings in 9.58s =======================

@@ -1,0 +1,16 @@
+.venv/
+validation_env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+mlflow.db*
+mlartifacts/
+.coverage
+htmlcov/
+*.webm
+evidence/video/
+artifacts/logs/*
+!artifacts/logs/.gitkeep
+
