@@ -1,0 +1,95 @@
+[
+    {
+        "Id": "sha256:051f122ac0cd6b61aa2fa5654dce0fa8265ab48c5b1168a95344e7fc2044116d",
+        "RepoTags": [
+            "heart-risk-api:bits-lab"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2026-10-18T08:35:26.528596077+05:30",
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "10001:10001",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "8000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+                "PYTHON_VERSION=3.11.12",
+                "PYTHON_SHA256=849da87af4df137710c1796e276a955f7a85c9f971081067c8f565d15c352a09",
+                "PYTHONUNBUFFERED=1",
+                "PYTHONDONTWRITEBYTECODE=1",
+                "HEARTML_ROOT=/app"
+            ],
+            "Cmd": [
+                "uvicorn",
+                "heartml.api:app",
+                "--host",
+                "0.0.0.0",
+                "--port",
+                "8000",
+                "--workers",
+                "1"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "python -c \"import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/ready', timeout=3)\""
+                ],
+                "Interval": 30000000000,
+                "Timeout": 5000000000,
+                "StartPeriod": 20000000000,
+                "Retries": 3
+            },
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 521294036,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/huofs7k74mvzyd3l19s0mg6dv/diff:/var/lib/docker/overlay2/c0bimgzp4f7o88isvd0hhsv5j/diff:/var/lib/docker/overlay2/h90e4p7rwbbrl612kfiv52fsv/diff:/var/lib/docker/overlay2/q26iqjh1yk2k67oezwj37aok4/diff:/var/lib/docker/overlay2/qjn6jba1hq0hf2licd8844cop/diff:/var/lib/docker/overlay2/1e150aa84ce5d2d9abdcb4c562be2d7164353d201473a42296c23aaf31e4d8d7/diff:/var/lib/docker/overlay2/b5f2c25ae6c572fa08686002f32837102a6ac728b49def06ae3abf2f088fde96/diff:/var/lib/docker/overlay2/8d00426622390c1946ca286c764d3047781230302eb97b90ce5a12b7e0aa3539/diff:/var/lib/docker/overlay2/eb1162ebc2cd756f046a2095ea3e7f9b96d94cb4a6f5957f85c64033a0b3d5a9/diff",
+                "MergedDir": "/var/lib/docker/overlay2/30v6dawbmir7yr10udygm6g78/merged",
+                "UpperDir": "/var/lib/docker/overlay2/30v6dawbmir7yr10udygm6g78/diff",
+                "WorkDir": "/var/lib/docker/overlay2/30v6dawbmir7yr10udygm6g78/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:ace34d1d784c01e3f9d156687089e8f58f786e23ccd097bdbbf337d6d28b3783",
+                "sha256:b1e89496ceb6bd14987f2b91c4bcaeada8262314d119afd356340e0dea1466e1",
+                "sha256:16b1c710f703741b24a3f97ddd9bf163c494d535364d9408ee9c06defe8518f1",
+                "sha256:be1d64b620bf5a773ec3c6f6ed665485929705447b845254a3299b7491a15533",
+                "sha256:76bf5f29ccbd104bb87a65da45472aaac4be733995bfcdaf6299b68be3e58296",
+                "sha256:1ad43c7658b7b52f2d0599ea0b92aef900fed9c2b177034b60a447db5fb362ec",
+                "sha256:e6e09874cadb13d4b368431b811e907440d2d6f8781dbc8e22af2f2df2e99cb5",
+                "sha256:de74cc55127433d1b4bd5dbd66232278fe77e13e2a29f0598d92ee6ff5c0029c",
+                "sha256:49894222fb3934b925551e3f44cb635c3d988f90654c2c4ec812270db2b508a0",
+                "sha256:6849f46f969e94dd583d3df294bee3cfd07e567383eac2b074dad7cc9ddc72f4"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2026-10-18T08:35:31.539494948+05:30"
+        }
+    }
+]

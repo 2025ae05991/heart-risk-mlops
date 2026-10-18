@@ -1,0 +1,9 @@
+NAME                             READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES                    SELECTOR
+deployment.apps/heart-risk-api   2/2     2            2           36s   api          heart-risk-api:bits-lab   app=heart-risk-api
+
+NAME                                  READY   STATUS    RESTARTS   AGE   IP           NODE      NOMINATED NODE   READINESS GATES
+pod/heart-risk-api-65f957fb79-r29gl   1/1     Running   0          36s   10.244.0.4   heartml   <none>           <none>
+pod/heart-risk-api-65f957fb79-v9v69   1/1     Running   0          36s   10.244.0.3   heartml   <none>           <none>
+
+NAME                     TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE   SELECTOR
+service/heart-risk-api   LoadBalancer   10.111.236.82   <pending>     8000:30464/TCP   36s   app=heart-risk-api

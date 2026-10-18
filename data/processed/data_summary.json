@@ -3,7 +3,7 @@
   "citation": "Janosi et al. (1989), UCI Heart Disease, DOI 10.24432/C52P4X",
   "license": "CC BY 4.0",
   "raw_sha256": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8",
-  "clean_sha256": "af5cce023100fe2b6288bc26958873b636f58d0dc75159a547ee2e9e4c708deb",
+  "clean_sha256": "dee6cc4854aeda6daf444110de51698a4f24a778ae207f409732ea191ce3a6c7",
   "raw_rows": 303,
   "clean_rows": 303,
   "duplicates_removed": 0,

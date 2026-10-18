@@ -1,0 +1,267 @@
+apiVersion: v1
+data:
+  grafana-dashboard.json: |-
+    {
+      "uid": "heartml-api",
+      "title": "HeartML API monitoring",
+      "schemaVersion": 40,
+      "version": 1,
+      "refresh": "10s",
+      "tags": [
+        "heartml",
+        "mlops"
+      ],
+      "time": {
+        "from": "now-15m",
+        "to": "now"
+      },
+      "timezone": "browser",
+      "panels": [
+        {
+          "id": 1,
+          "title": "Healthy API pods",
+          "type": "stat",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "heartml-prometheus"
+          },
+          "gridPos": {
+            "h": 8,
+            "w": 12,
+            "x": 0,
+            "y": 0
+          },
+          "targets": [
+            {
+              "refId": "A",
+              "expr": "sum(up{job=\"heart-risk-api\"})",
+              "legendFormat": "{{pod}}{{status}}{{class_label}}"
+            }
+          ],
+          "fieldConfig": {
+            "defaults": {
+              "unit": "short",
+              "color": {
+                "mode": "palette-classic"
+              }
+            },
+            "overrides": []
+          },
+          "options": {
+            "reduceOptions": {
+              "calcs": [
+                "lastNotNull"
+              ],
+              "fields": "",
+              "values": false
+            },
+            "colorMode": "value",
+            "graphMode": "none"
+          }
+        },
+        {
+          "id": 2,
+          "title": "Prediction requests per second",
+          "type": "timeseries",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "heartml-prometheus"
+          },
+          "gridPos": {
+            "h": 8,
+            "w": 12,
+            "x": 12,
+            "y": 0
+          },
+          "targets": [
+            {
+              "refId": "A",
+              "expr": "sum(rate(heartml_http_requests_total{route=\"/predict\"}[1m]))",
+              "legendFormat": "{{pod}}{{status}}{{class_label}}"
+            }
+          ],
+          "fieldConfig": {
+            "defaults": {
+              "unit": "reqps",
+              "color": {
+                "mode": "palette-classic"
+              }
+            },
+            "overrides": []
+          },
+          "options": {
+            "legend": {
+              "displayMode": "list",
+              "placement": "bottom"
+            },
+            "tooltip": {
+              "mode": "multi"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "title": "Prediction latency p95",
+          "type": "timeseries",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "heartml-prometheus"
+          },
+          "gridPos": {
+            "h": 8,
+            "w": 12,
+            "x": 0,
+            "y": 8
+          },
+          "targets": [
+            {
+              "refId": "A",
+              "expr": "histogram_quantile(0.95, sum by (le) (rate(heartml_http_duration_seconds_bucket{route=\"/predict\"}[2m])))",
+              "legendFormat": "{{pod}}{{status}}{{class_label}}"
+            }
+          ],
+          "fieldConfig": {
+            "defaults": {
+              "unit": "s",
+              "color": {
+                "mode": "palette-classic"
+              }
+            },
+            "overrides": []
+          },
+          "options": {
+            "legend": {
+              "displayMode": "list",
+              "placement": "bottom"
+            },
+            "tooltip": {
+              "mode": "multi"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "title": "Prediction response codes",
+          "type": "timeseries",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "heartml-prometheus"
+          },
+          "gridPos": {
+            "h": 8,
+            "w": 12,
+            "x": 12,
+            "y": 8
+          },
+          "targets": [
+            {
+              "refId": "A",
+              "expr": "sum by (status) (rate(heartml_http_requests_total{route=\"/predict\"}[1m]))",
+              "legendFormat": "{{pod}}{{status}}{{class_label}}"
+            }
+          ],
+          "fieldConfig": {
+            "defaults": {
+              "unit": "reqps",
+              "color": {
+                "mode": "palette-classic"
+              }
+            },
+            "overrides": []
+          },
+          "options": {
+            "legend": {
+              "displayMode": "list",
+              "placement": "bottom"
+            },
+            "tooltip": {
+              "mode": "multi"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "title": "Served predictions by class",
+          "type": "timeseries",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "heartml-prometheus"
+          },
+          "gridPos": {
+            "h": 8,
+            "w": 12,
+            "x": 0,
+            "y": 16
+          },
+          "targets": [
+            {
+              "refId": "A",
+              "expr": "sum by (class_label) (increase(heartml_predictions_total[5m]))",
+              "legendFormat": "{{pod}}{{status}}{{class_label}}"
+            }
+          ],
+          "fieldConfig": {
+            "defaults": {
+              "unit": "short",
+              "color": {
+                "mode": "palette-classic"
+              }
+            },
+            "overrides": []
+          },
+          "options": {
+            "legend": {
+              "displayMode": "list",
+              "placement": "bottom"
+            },
+            "tooltip": {
+              "mode": "multi"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "title": "Process resident memory",
+          "type": "timeseries",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "heartml-prometheus"
+          },
+          "gridPos": {
+            "h": 8,
+            "w": 12,
+            "x": 12,
+            "y": 16
+          },
+          "targets": [
+            {
+              "refId": "A",
+              "expr": "sum by (pod) (process_resident_memory_bytes{job=\"heart-risk-api\"})",
+              "legendFormat": "{{pod}}{{status}}{{class_label}}"
+            }
+          ],
+          "fieldConfig": {
+            "defaults": {
+              "unit": "bytes",
+              "color": {
+                "mode": "palette-classic"
+              }
+            },
+            "overrides": []
+          },
+          "options": {
+            "legend": {
+              "displayMode": "list",
+              "placement": "bottom"
+            },
+            "tooltip": {
+              "mode": "multi"
+            }
+          }
+        }
+      ]
+    }
+kind: ConfigMap
+metadata:
+  name: grafana-dashboard
+  namespace: heartml

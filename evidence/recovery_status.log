@@ -1,0 +1,9 @@
+NAME                                  READY   STATUS    RESTARTS   AGE
+pod/grafana-864c8fb978-8992b          1/1     Running   0          86s
+pod/heart-risk-api-65f957fb79-2tqkb   1/1     Running   0          2m12s
+pod/heart-risk-api-65f957fb79-hkwf4   1/1     Running   0          2m12s
+pod/prometheus-69dc8d77cd-948zd       1/1     Running   0          86s
+
+NAME                                    STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+persistentvolumeclaim/grafana-data      Bound    pvc-dfc4186d-f50c-411b-9b03-aa44dc1d7903   1Gi        RWO            standard       <unset>                 2m11s
+persistentvolumeclaim/prometheus-data   Bound    pvc-e18ae950-32e8-440a-8f2c-0113dc8a98e7   2Gi        RWO            standard       <unset>                 2m11s

@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE                     COMMAND                  CREATED              STATUS                        PORTS                      NAMES
+6a73fdafaa6b   heart-risk-api:bits-lab   "uvicorn heartml.api…"   About a minute ago   Up About a minute (healthy)   127.0.0.1:8001->8000/tcp   heart-risk-api-bits
